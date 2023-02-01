@@ -1,6 +1,7 @@
 body
 {
-    color: rgb(5, 49, 5);
+    background-color: gray;
+    color: #333;
     text-align: center;
     font-family: calc();
     font-size: 16px;
@@ -10,13 +11,19 @@ body
 
 #Cabecera {
 
+    background-color: green;
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
     box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.75);
-    background-color: green;
 
+}
+
+#Cabecera #Logo {
+
+    width: 20px;
+    vertical-align: middle;
 }
 
 #Cabecera #Tagline {
@@ -28,7 +35,7 @@ body
 #Container {
 
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid rgba(33, 33, 33, 0.286);
     margin: 0 auto;
@@ -39,10 +46,18 @@ body
     font-size: 20px;
 }
 
+
 #Footer { 
 
     background: #777;
     color: white;
     text-align: center;
     padding: 0.8em;
+}
+
+#Post {
+    
+    background-color: white;
+    padding: 1em;
+>>>>>>> header
 }
